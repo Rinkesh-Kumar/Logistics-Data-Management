@@ -15,3 +15,7 @@ This project demonstrates a data pipeline that uses GCP Storage, Apache Airflow,
     - Insert records from the external table into the partitioned table.
     - BashOperator: Moves the file from the raw directory to the archive directory in GCP Storage.
     - TriggerDagRunOperator: Re-triggers the DAG to ensure continuous processing.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
